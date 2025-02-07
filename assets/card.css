@@ -1,0 +1,61 @@
+#competences {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    gap: 10rem;
+    width: 100%;
+    height: auto;
+    padding: 6rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    position: relative;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#projets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: inline;
+    margin: 2rem 0;
+    padding: 6rem;
+    gap: 10rem;
+    width: 100%;
+}
+
+.card-projet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* width: 33%; */
+    flex-direction:row-reverse
+}
+
+.card-projet img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+

@@ -100,9 +100,9 @@ console.log(somme)
 
 // a = Number(prompt("choisissez un premier nombre"));
 // b = Number(prompt("choisissez un second nombre"));
-// operation = prompt("Choisissez votre operation : addition ; multiplication ; soustraction");
-// function calculette(a, b, operateur) {
-//     switch (operateur) {
+// function calculette(a, b) {
+//     const operateur = prompt ("Choisissez votre opération ") ;
+switch (operateur) {
 //         case "addition":
 //             return a + b;
             
@@ -117,9 +117,10 @@ console.log(somme)
 //             break;
 //         default:
 //             break;
-// }}
+// }
+}
 
-// let calcul = calculette(a, b, operateur);
+// let calcul = calculette(a, b);
 // console.log(calcul);
 
 const nav = document.querySelector("nav");

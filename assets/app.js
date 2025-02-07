@@ -136,7 +136,7 @@ function cacherElement(){
     footer.style.display = "none";
 }
 
-cacherElement(nav,main,header,footer)
+cacherElement();
 
 function afficher() {
     nav.style.display = "";
@@ -145,4 +145,4 @@ function afficher() {
     footer.style.display = "";
 }
 
-afficher(nav,main,header,footer)
+afficher();

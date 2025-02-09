@@ -96,39 +96,41 @@ console.log(somme)
 //     }
 // }
 // add = calculer(x,y, operation)
-// // console.log(add)
+// console.log(add)
 
-// a = Number(prompt("choisissez un premier nombre"));
-// b = Number(prompt("choisissez un second nombre"));
-// function calculette(a, b) {
-//     const operateur = prompt ("Choisissez votre opération ") ;
+a = Number(prompt("choisissez un premier nombre"));
+b = Number(prompt("choisissez un second nombre"));
+function calculette(a, b) {
+    const operateur = prompt ("Choisissez votre opération : 1 / addition ; 2 / soustraction ; 3 / multiplication") ;
 switch (operateur) {
-//         case "addition":
-//             return a + b;
+        case "1":
+            return a + b;
             
-//             break;
-//         case "soustraction":
-//             return a - b;
+            break;
+        case "2":
+            return a - b;
 
-//             break;
-//         case "multiplication":
-//             return a * b;
+            break;
+        case "3":
+            return a * b;
         
-//             break;
-//         default:
-//             break;
-// }
+            break;
+        default:
+            break;
+}
 }
 
-// let calcul = calculette(a, b);
-// console.log(calcul);
+let calcul = calculette(a, b);
+console.log(calcul);
+
 
 const nav = document.querySelector("nav");
 const main = document.querySelector("main");
 const header = document.querySelector("header");
 const footer = document.querySelector("footer");
 
-console.log(nav, main, header, footer);
+// document.getElementById
+// document.getElementsByName
 
 function cacherElement(){
     nav.style.display = "none";
@@ -147,3 +149,4 @@ function afficher() {
 }
 
 afficher();
+

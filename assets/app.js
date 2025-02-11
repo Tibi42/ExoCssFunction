@@ -101,7 +101,7 @@ console.log(somme)
 a = Number(prompt("choisissez un premier nombre"));
 b = Number(prompt("choisissez un second nombre"));
 function calculette(a, b) {
-    const operateur = prompt ("Choisissez votre opération : 1 / addition ; 2 / soustraction ; 3 / multiplication") ;
+const operateur = prompt ("Choisissez votre opération : 1 / addition ; 2 / soustraction ; 3 / multiplication ; 4 / Division") ;
 switch (operateur) {
         case "1":
             return a + b;
@@ -115,8 +115,16 @@ switch (operateur) {
             return a * b;
         
             break;
+        case "4": 
+            if (b === 0){
+                return "Division impossible par 0";
+            } else {
+                return a / b;
+            }
         default:
-            break;
+            return "Operation invalide"
+            break
+            
 }
 }
 
